@@ -1,0 +1,5 @@
+#exercise 1 a=b=c=int(input("Enter the value of a, b, c")) d=a/10 e=b*50 f=c+60 print("The divided value is", d) print("The multiplied value is", e) print("The added value is", f)
+
+#exercise 2 H=input("Enter a 5 character string:") H1=H.replace(H[3], 'G') print("The original string is", H) print("The modified string is", H1)
+
+#exercise 3 a=int(input("Enter the value of a")) b=float(input("Enter the value of b",)) c=float(a) d=int(b) print("The floated value is", c) print("The integered value is", d)
