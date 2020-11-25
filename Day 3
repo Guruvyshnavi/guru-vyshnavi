@@ -1,0 +1,21 @@
+#
+D1={'a':10,'b':20}
+D2={'c':30,'d':40}
+D1.update(D2)
+Print(D1)
+#
+D2.pop('c':30)
+Print(D2)
+D1.pop()
+Print (D1)
+#
+Fruits=["apple""banana"]
+Colour=["red""banana"]
+Dict=Dict(zip(fruits colour))
+Print(Dict)
+#
+Set-A={"a1""a2"}
+Print (len(set-A))
+#
+Set-B={"b1""b2"}
+Print (set-A-set-B)
