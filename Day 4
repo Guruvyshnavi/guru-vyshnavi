@@ -1,0 +1,7 @@
+numvalue=int(input("Enter favourite number:")
+Print("numerical value is",numvalue)
+
+
+S="Hello"
+S[0]
+Print(s)
