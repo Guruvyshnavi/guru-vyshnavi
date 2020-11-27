@@ -1,0 +1,8 @@
+a=int(input())
+b=int(input())
+def arithmetic (x,y);
+Print("Addition of two numbers is=",x+y)
+Print("subtraction of two numbers is=",x-y)
+Print("division of two numbers is=",x/y)
+Print("multiplication of two numbers is=",x*y)
+arithmetic (a,b)
