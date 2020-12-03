@@ -1,0 +1,98 @@
+#Exercise 1
+List = [1,2,3,4,5]
+for i in List:
+Print(i,i+2)
+#Exercise 2 
+for i in range(5,0, -1): 
+	for j in range(i, 0, -1): 
+		print(j, end='') 
+	print() 
+#Exercise 3
+nterms = int(input("How many terms? "))
+n1, n2 = 0, 1
+count = 0
+if nterms <= 0:
+   print("Please enter a positive integer")
+elif nterms == 1:
+   print("Fibonacci sequence upto",nterms,":")
+   print(n1)
+else:
+   print("Fibonacci sequence:")
+   while count < nterms:
+       print(n1)
+       nth = n1 + n2
+       n1 = n2
+       n2 = nth
+       count += 1
+#Exercise 4 
+Armstrong number:sum of cubes of each digit is equal to the number itself
+num = int(input("Enter a number: "))
+sum = 0
+temp = num
+while temp > 0:
+   digit = temp % 10
+   sum += digit ** 3
+   temp //= 1
+if num == sum:
+   print(num,"is an Armstrong number")
+else:
+   print(num,"is not an Armstrong number")
+#Exercise 5
+num = int(input("Display multiplication table of ")) #num=9
+for i in range(1, 11):
+   print(num, 'x', i, '=', num*i)
+#Exercise 6
+n=int(input("Enter number: "))
+if(n>0):
+    print("Number is positive")
+else:
+    print("Number is negative")
+#Exercise 7 
+def calculateAge(birthDate):
+ days_in_year = 365.2425. 
+age = int ((date.today() - birthDate).days / days_in_year) 
+return age
+ print (calculateAge(date( 1997 , 2 , 3 )), "years" )
+#Exercise 8
+a=27
+import math
+print(math.tan(a))
+print(math.sin(a))
+print(math.cos(a))
+#Exercise 9
+ch=int(input("Enter Choice(1-4): "))
+
+if ch==1:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    c=a+b
+    print("Sum = ",c)
+elif ch==2:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    c=a-b
+    print("Difference = ",c)
+elif  ch==3:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    c=a*b
+    print("Product = ",c)
+elif ch==4:
+    a=int(input("Enter A:"))
+    b=int(input("Enter B:"))
+    c=a/b
+    print("Quotient = ",c)
+else:
+    print("Invalid Choice")
+© 2020 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
